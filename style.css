@@ -126,11 +126,13 @@ body {
 }
 
 
-
 .line {
+
+    display: block;
     width: 495px;
     height: 2px;
     background-color: white;
+    flex-shrink: 0;
 }
 
 .lastname {
@@ -142,7 +144,7 @@ body {
 
     margin-right: 50rem;
     font-size: 20px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Horizon', sans-serif;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
