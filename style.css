@@ -75,6 +75,9 @@ body {
     font-weight: 600;
     font-family: "Inter", sans-serif;
     border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+     transition: background-color 0.9s ease, transform 0.1s ease;
 }
 
 
@@ -88,6 +91,7 @@ body {
     background-color: transparent;
     border-radius: 4px;
     color: #fff;
+    cursor: pointer;
 }
 
 
@@ -126,15 +130,6 @@ body {
 }
 
 
-.line {
-
-    display: block;
-    width: 495px;
-    height: 2px;
-    background-color: white;
-    flex-shrink: 0;
-}
-
 .lastname {
     margin-top: 10px;
 }
@@ -148,5 +143,17 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: none;
 }
 
+
+.hire:hover {
+
+    background-color: rgba(87, 85, 85, 0.558);
+}
+
+
+.lets:active {
+
+    border: 1px solid rgb(255, 255, 255);
+}
