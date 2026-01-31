@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(47, 47, 47);
+    box-sizing: border-box;
 }
 
 
@@ -36,7 +37,7 @@ body {
 
 .Profile-Image img {
 
-    filter: grayscale(50%);
+    filter: grayscale(30%);
 }
 
 
@@ -164,4 +165,13 @@ body {
 
     text-decoration-line :underline;
     color: black;
+}
+
+
+.grain {
+  position: absolute;
+  inset: 0;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.15;
+  pointer-events: none;
 }
